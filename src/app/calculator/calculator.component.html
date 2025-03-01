@@ -1,0 +1,27 @@
+<!-- <p >calculator works!</p> -->
+<div><p >calculator works!</p></div>
+
+<div class="calculator">
+    <input type="text" [(ngModel)]="result" disabled>
+    <div class="buttons">
+      <button (click)="clear()">C</button>
+      <button (click)="backspace()">DELETE</button>
+      <button (click)="calculate('/')">/</button>
+      <button (click)="calculate('*')">*</button>
+      <button (click)="calculate('7')">7</button>
+      <button (click)="calculate('8')">8</button>
+      <button (click)="calculate('9')">9</button>
+      <button (click)="calculate('-')">-</button>
+      <button (click)="calculate('4')">4</button>
+      <button (click)="calculate('5')">5</button>
+      <button (click)="calculate('6')">6</button>
+      <button (click)="calculate('+')">+</button>
+      <button (click)="calculate('1')">1</button>
+      <button (click)="calculate('2')">2</button>
+      <button (click)="calculate('3')">3</button>
+      <button (click)="calculate('0')">0</button>
+      <button (click)="calculate('.')">.</button>
+      <button (click)="calculate('=')">=</button>
+      <button (click)="calculate('%')">%</button>
+    </div>
+</div>
